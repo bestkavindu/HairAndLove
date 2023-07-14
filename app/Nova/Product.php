@@ -46,7 +46,7 @@ class Product extends Resource
             ID::make()->sortable(),
 
             Text::make('title'),
-            Image::make('Image')->disk('public'),
+            Image::make('Image')->disk('public')->path('/images/product') ->help('Image Size : 550 X 400 '),
             Markdown::make('desc'),
 
         ];
