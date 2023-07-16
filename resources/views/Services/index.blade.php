@@ -25,7 +25,7 @@
 
     <!-- Page Header Start -->
     <div class="container-fluid page-header mb-5 wow fadeIn" data-wow-delay="0.1s"
-        style="background-image: linear-gradient(rgba(0, 29, 35, .8), rgba(0, 29, 35, .8)),url('/assets/img/carousel-1.jpg')">
+        style="background-image: linear-gradient(rgba(0, 29, 35, .8), rgba(0, 29, 35, .8)),url('{{$info->service_cover}}')">
         <div class="container text-center">
             <h1 class="display-4 text-white animated slideInDown mb-4">Services</h1>
             <nav aria-label="breadcrumb animated slideInDown">
@@ -93,8 +93,8 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="position-relative overflow-hidden h-100" style="min-height: 400px;">
-                        <img class="position-absolute w-100 h-100 pt-5 pe-5" src="/assets/img/2.jpg" alt="" style="object-fit: cover;">
-                        <img class="position-absolute top-0 end-0 bg-white ps-2 pb-2" src="/assets/img/3.jpg" alt="" style="width: 200px; height: 200px;">
+                        <img class="position-absolute w-100 h-100 pt-5 pe-5" src="{{$info->service_main_img_1}}" alt="" style="object-fit: cover;">
+                        <img class="position-absolute top-0 end-0 bg-white ps-2 pb-2" src="{{$info->service_main_img_1}}" alt="" style="width: 200px; height: 200px;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -102,7 +102,7 @@
                         {{-- <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">About Us</div> --}}
                         <h1 class="display-6 mb-5">Services</h1>
                         <div class="bg-light border-bottom border-5 border-primary rounded p-4 mb-4">
-                            <p class="text-dark mb-2">Introducing Love and Hair Company, your go-to for discovering new hair products while supporting entrepreneurs. We provide a service of biweekly shipments of diverse hair products from our partner brands. Join us in celebrating diversity and empowering entrepreneurs alike. Subscribe today and embrace the journey of self-discovery and self-love with Love and Hair Company. </p>
+                            <p class="text-dark mb-2">{{$info->desc}} </p>
                         </div>
                         {{-- <a href="/about" class="btn btn-primary py-2 px-3 me-3" href="">
                             Learn More
