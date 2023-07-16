@@ -51,10 +51,11 @@
     <div class="container-xxl bg-light my-5 py-5">
         <div class="container py-5">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Feature Causes</div>
-                <h1 class="display-6 mb-5">Every Child Deserves The Opportunity To Learn</h1>
+                <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Blog and News</div>
+                <h1 class="display-6 mb-5">Read our Daily article</h1>
             </div>
             <div class="row g-4 justify-content-center">
+                @foreach ($blogs as $item)
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
                         <div class="text-center p-4 pt-0">
@@ -63,12 +64,12 @@
                             </div>
                             <div class="service-img">
 
-                                <img class="img-fluid" src="/assets/img/courses-1.jpg" alt="">
+                                <img class="img-fluid" src="{{$item->main_img}}" alt="">
                             </div>
-                            <h5 class="mb-3">Education For African Children</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos odit eveniet et adipisci recusandae temporibus rerum distinctio sequi eum, provident, omnis nemo dolore doloremque nisi quidem? Saepe modi quidem rem?</p>
-                            <a class="btn btn-outline-primary px-3" href="">
-                                Learn More
+                            <h5 class="mb-3">{{$item->title}}</h5>
+                            <p class="text-truncate-4" >{!! $item->desc !!}</p>
+                            <a href="{{ route('blog.single', ['id' => $item->id]) }}" class="btn btn-outline-primary px-3" href="">
+                                Read More
                                 <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
                                     <i class="fa fa-arrow-right"></i>
                                 </div>
@@ -76,7 +77,7 @@
                         </div>
                     </div>
                 </div>
-
+                @endforeach
             </div>
         </div>
     </div>

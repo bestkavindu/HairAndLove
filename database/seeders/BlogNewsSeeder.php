@@ -15,8 +15,8 @@ class BlogNewsSeeder extends Seeder
     {
         BlogNews::create([
             'title'=>'Education For African Children',
-            'main_img'=>'Education For African Children',
-            'cover_img'=>'Education For African Children',
+            'main_img'=>'images/blogandnews/1.jpg',
+            'cover_img'=>'images/blogandnews/2.jpg',
             'desc' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos odit eveniet et adipisci recusandae temporibus rerum distinctio sequi eum, provident, omnis nemo dolore doloremque nisi quidem? Saepe modi quidem rem?'
         ]);
     }

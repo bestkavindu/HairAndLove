@@ -9,14 +9,23 @@
         .modal-body p {
             font-size: 16px;
         }
-        .text-dark{
+
+        .text-dark {
             line-height: 30px;
         }
+
         .principal-icon {
-    font-size: 70px;
-    padding: 20px 0;
-    color: #ff6f0f;
-}
+            font-size: 70px;
+            padding: 20px 0;
+            color: #ff6f0f;
+        }
+
+        .service-img img {
+            border-radius: 10px;
+            width: 100%;
+            padding-top: 15px;
+
+        }
 
         @media (min-width: 1200px) {
             .display-4 {
@@ -87,71 +96,82 @@
         </div>
     </div>
 
-        <!-- About Start -->
-        <div class="container-xxl py-5">
-            <div class="container">
-                <div class="row g-5">
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="position-relative overflow-hidden h-100" style="min-height: 400px;">
-                            <img class="position-absolute w-100 h-100 pt-5 pe-5" src="/assets/img/2.jpg" alt="" style="object-fit: cover;">
-                            <img class="position-absolute top-0 end-0 bg-white ps-2 pb-2" src="/assets/img/3.jpg" alt="" style="width: 200px; height: 200px;">
-                        </div>
-                    </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="h-100">
-                            <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">About Us</div>
-                            <h1 class="display-6 mb-5">Who we are</h1>
-                            <div class="bg-light border-bottom border-5 border-primary rounded p-4 mb-4">
-                                <p class="text-dark mb-2">At Hair and Love, we are on a mission to empower and uplift black-owned haircare businesses. With our biweekly service subscription, you have the opportunity to not only explore an incredible range of products but also actively support these entrepreneurs. Join us today and become a part of a community that celebrates diversity, beauty, and the power of black-owned haircare companies.</p>
-                            </div>
-                            <a class="btn btn-primary py-2 px-3 me-3" href="">
-                                Learn More
-                                <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
-                                    <i class="fa fa-arrow-right"></i>
-                                </div>
-                            </a>
-                            <a class="btn btn-outline-primary py-2 px-3" href="">
-                                Contact Us
-                                <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
-                                    <i class="fa fa-arrow-right"></i>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- About End -->
-
-            <!-- Service Start -->
+    <!-- About Start -->
     <div class="container-xxl py-5">
         <div class="container">
-            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">What We Do</div>
-                <h1 class="display-6 mb-5">Learn More What We Do And Get Involved</h1>
-            </div>
-            <div class="row g-4 justify-content-center">
-                @foreach ($services as $service )
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
-                        <div class="principal-icon">{!! $service->icon !!}</div>
-                        <h4 class="mb-3">{{ $service -> title}}</h4>
-                        <p class="mb-4">{!! $service -> desc !!}</p>
-                        <a class="btn btn-outline-primary px-3" href="">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="position-relative overflow-hidden h-100" style="min-height: 400px;">
+                        <img class="position-absolute w-100 h-100 pt-5 pe-5" src="/assets/img/2.jpg" alt=""
+                            style="object-fit: cover;">
+                        <img class="position-absolute top-0 end-0 bg-white ps-2 pb-2" src="/assets/img/3.jpg" alt=""
+                            style="width: 200px; height: 200px;">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="h-100">
+                        <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">About Us</div>
+                        <h1 class="display-6 mb-5">Who we are</h1>
+                        <div class="bg-light border-bottom border-5 border-primary rounded p-4 mb-4">
+                            <p class="text-dark mb-2">At Hair and Love, we are on a mission to empower and uplift
+                                black-owned haircare businesses. With our biweekly service subscription, you have the
+                                opportunity to not only explore an incredible range of products but also actively support
+                                these entrepreneurs. Join us today and become a part of a community that celebrates
+                                diversity, beauty, and the power of black-owned haircare companies.</p>
+                        </div>
+                        <a href="/about" class="btn btn-primary py-2 px-3 me-3" href="">
                             Learn More
+                            <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
+                                <i class="fa fa-arrow-right"></i>
+                            </div>
+                        </a>
+                        <a href="/contact" class="btn btn-outline-primary py-2 px-3" href="">
+                            Contact Us
                             <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
                                 <i class="fa fa-arrow-right"></i>
                             </div>
                         </a>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+    <div class="container-xxl bg-light my-5 py-5">
+        <div class="container py-5">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Feature Products</div>
+                <h1 class="display-6 mb-5">Explore our new Products</h1>
+            </div>
+            <div class="row g-4 justify-content-center">
+                @foreach ($products as $product)
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div
+                            class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
+                            <div class="text-center p-4 pt-0">
+
+                                <div class="service-img">
+
+                                    <img class="img-fluid" src="{{ $product->image }}" alt="">
+                                </div>
+                                <h5 class="mb-3 mt-3">{{ $product->title }}</h5>
+                                <p class="text-truncate-3">{!! $product->desc !!}</p>
+                                <a class="btn btn-outline-primary px-3" href="">
+                                    View
+                                    <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
+                                        <i class="fa fa-arrow-right"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 @endforeach
             </div>
         </div>
     </div>
-    <!-- Service End -->
 
-            <!-- Testimonial Start -->
+    <!-- Testimonial Start -->
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
@@ -160,25 +180,34 @@
             </div>
             <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
                 <div class="testimonial-item text-center">
-                    <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="img/testimonial-1.jpg" style="width: 100px; height: 100px;">
+                    <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="img/testimonial-1.jpg"
+                        style="width: 100px; height: 100px;">
                     <div class="testimonial-text rounded text-center p-4">
-                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
+                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut
+                            diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.
+                        </p>
                         <h5 class="mb-1">Doner Name</h5>
                         <span class="fst-italic">Profession</span>
                     </div>
                 </div>
                 <div class="testimonial-item text-center">
-                    <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="img/testimonial-2.jpg" style="width: 100px; height: 100px;">
+                    <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="img/testimonial-2.jpg"
+                        style="width: 100px; height: 100px;">
                     <div class="testimonial-text rounded text-center p-4">
-                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
+                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut
+                            diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.
+                        </p>
                         <h5 class="mb-1">Doner Name</h5>
                         <span class="fst-italic">Profession</span>
                     </div>
                 </div>
                 <div class="testimonial-item text-center">
-                    <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="img/testimonial-3.jpg" style="width: 100px; height: 100px;">
+                    <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="img/testimonial-3.jpg"
+                        style="width: 100px; height: 100px;">
                     <div class="testimonial-text rounded text-center p-4">
-                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
+                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut
+                            diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.
+                        </p>
                         <h5 class="mb-1">Doner Name</h5>
                         <span class="fst-italic">Profession</span>
                     </div>

@@ -15,32 +15,32 @@ class RolePermissionTableSeeder extends Seeder
     public function run()
     {
         \DB::table('role_permission')->delete();
-        
+
         \DB::table('role_permission')->insert(array (
 
             //roles
-            0 => 
+            0 =>
             array (
                 'role_id' => 1,
                 'permission_slug' => 'create roles',
                 'created_at' => '2023-01-29 05:10:04',
                 'updated_at' => '2023-01-29 05:10:04',
             ),
-            1 => 
+            1 =>
             array (
                 'role_id' => 1,
                 'permission_slug' => 'edit roles',
                 'created_at' => '2023-01-29 05:10:04',
                 'updated_at' => '2023-01-29 05:10:04',
             ),
-            2 => 
+            2 =>
             array (
                 'role_id' => 1,
                 'permission_slug' => 'view roles',
                 'created_at' => '2023-01-29 05:10:04',
                 'updated_at' => '2023-01-29 05:10:04',
             ),
-            3 => 
+            3 =>
             array (
                 'role_id' => 1,
                 'permission_slug' => 'delete roles',
@@ -49,28 +49,28 @@ class RolePermissionTableSeeder extends Seeder
             ),
 
             //users
-            4 => 
+            4 =>
             array (
                 'role_id' => 1,
                 'permission_slug' => 'delete users',
                 'created_at' => '2023-01-29 05:10:04',
                 'updated_at' => '2023-01-29 05:10:04',
             ),
-            5 => 
+            5 =>
             array (
                 'role_id' => 1,
                 'permission_slug' => 'view users',
                 'created_at' => '2023-01-29 05:10:04',
                 'updated_at' => '2023-01-29 05:10:04',
             ),
-            6 => 
+            6 =>
             array (
                 'role_id' => 1,
                 'permission_slug' => 'edit users',
                 'created_at' => '2023-01-29 05:10:04',
                 'updated_at' => '2023-01-29 05:10:04',
             ),
-            7 => 
+            7 =>
             array (
                 'role_id' => 1,
                 'permission_slug' => 'create users',
@@ -79,28 +79,28 @@ class RolePermissionTableSeeder extends Seeder
             ),
 
             //principle
-            8 => 
+            8 =>
             array (
                 'role_id' => 1,
                 'permission_slug' => 'view principle',
                 'created_at' => '2023-01-29 05:10:04',
                 'updated_at' => '2023-01-29 05:10:04',
             ),
-            9 => 
+            9 =>
             array (
                 'role_id' => 1,
                 'permission_slug' => 'create principle',
                 'created_at' => '2023-01-29 05:10:04',
                 'updated_at' => '2023-01-29 05:10:04',
             ),
-            10 => 
+            10 =>
             array (
                 'role_id' => 1,
                 'permission_slug' => 'edit principle',
                 'created_at' => '2023-01-29 05:10:04',
                 'updated_at' => '2023-01-29 05:10:04',
             ),
-            11 => 
+            11 =>
             array (
                 'role_id' => 1,
                 'permission_slug' => 'delete principle',
@@ -108,58 +108,58 @@ class RolePermissionTableSeeder extends Seeder
                 'updated_at' => '2023-01-29 05:10:04',
             ),
 
-            //procument
-            12 => 
+            //product
+            12 =>
             array (
                 'role_id' => 1,
-                'permission_slug' => 'view procurement',
+                'permission_slug' => 'view products',
                 'created_at' => '2023-01-29 05:10:04',
                 'updated_at' => '2023-01-29 05:10:04',
             ),
-            13 => 
+            13 =>
             array (
                 'role_id' => 1,
-                'permission_slug' => 'create procurement',
+                'permission_slug' => 'create products',
                 'created_at' => '2023-01-29 05:10:04',
                 'updated_at' => '2023-01-29 05:10:04',
             ),
-            14 => 
+            14 =>
             array (
                 'role_id' => 1,
-                'permission_slug' => 'edit procurement',
+                'permission_slug' => 'edit products',
                 'created_at' => '2023-01-29 05:10:04',
                 'updated_at' => '2023-01-29 05:10:04',
             ),
-            15 => 
+            15 =>
             array (
                 'role_id' => 1,
-                'permission_slug' => 'delete procurement',
+                'permission_slug' => 'delete products',
                 'created_at' => '2023-01-29 05:10:04',
                 'updated_at' => '2023-01-29 05:10:04',
             ),
             //team
-            16 => 
+            16 =>
             array (
                 'role_id' => 1,
                 'permission_slug' => 'view team',
                 'created_at' => '2023-01-29 05:10:04',
                 'updated_at' => '2023-01-29 05:10:04',
             ),
-            17 => 
+            17 =>
             array (
                 'role_id' => 1,
                 'permission_slug' => 'create team',
                 'created_at' => '2023-01-29 05:10:04',
                 'updated_at' => '2023-01-29 05:10:04',
             ),
-            18 => 
+            18 =>
             array (
                 'role_id' => 1,
                 'permission_slug' => 'edit team',
                 'created_at' => '2023-01-29 05:10:04',
                 'updated_at' => '2023-01-29 05:10:04',
             ),
-            19 => 
+            19 =>
             array (
                 'role_id' => 1,
                 'permission_slug' => 'delete team',

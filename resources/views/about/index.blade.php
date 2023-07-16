@@ -22,7 +22,7 @@
 @endsection
 
 @section('content')
-  
+
     <!-- Page Header Start -->
     <div class="container-fluid page-header mb-5 wow fadeIn" data-wow-delay="0.1s"
         style="background-image: linear-gradient(rgba(0, 29, 35, .8), rgba(0, 29, 35, .8)),url('/assets/img/carousel-1.jpg')">
@@ -54,18 +54,6 @@
                             <div class="bg-light border-bottom border-5 border-primary rounded p-4 mb-4">
                                 <p class="text-dark mb-2">At Hair and Love, we are committed to supporting black-owned businesses in the haircare industry. Our biweekly subscription service allows our members to experience a wide range of sample-sized products from these businesses. By collaborating with black-owned brands, we aim to foster their growth and provide our customers with exceptional haircare options. Join us on this empowering journey and discover the power of black-owned haircare.</p>
                             </div>
-                            <a class="btn btn-primary py-2 px-3 me-3" href="">
-                                Learn More
-                                <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
-                                    <i class="fa fa-arrow-right"></i>
-                                </div>
-                            </a>
-                            <a class="btn btn-outline-primary py-2 px-3" href="">
-                                Contact Us
-                                <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
-                                    <i class="fa fa-arrow-right"></i>
-                                </div>
-                            </a>
                         </div>
                     </div>
                 </div>
