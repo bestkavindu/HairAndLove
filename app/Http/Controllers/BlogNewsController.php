@@ -5,12 +5,14 @@ namespace App\Http\Controllers;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\BlogNews;
+use App\Models\BlogNewsPage;
 
 class BlogNewsController extends Controller
 {
     public function index(){
+        $info = BlogNewsPage::first();
         $blogs = BlogNews::get();
-        return view('blognews.index', compact('blogs'));
+        return view('blognews.index', compact('blogs','info'));
     }
 
     public function single($id){

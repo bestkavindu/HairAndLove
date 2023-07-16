@@ -23,21 +23,13 @@ return new class extends Migration
             $table->text('slider_2');
             $table->text('slider_main_content');
             $table->text('slider_sub_content');
-            $table->text('home_about');
-            $table->text('home_about_img_1');
-            $table->text('home_about_img_2')->nullable();
+
             // about
-            $table->text('about_cover');
-            $table->text('about_main_img_1');
-            $table->text('about_main_img_2')->nullable();
-            $table->text('main_about');
+
             // service
-            $table->text('service_cover');
-            $table->text('service_main_img_1');
-            $table->text('service_main_img_2')->nullable();
-            $table->text('service');
+
             // products
-            $table->text('products_cover');
+
             $table->text('logo');
             $table->timestamps();
         });

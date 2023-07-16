@@ -41,7 +41,7 @@
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="/assets/img/1.jpg" alt="Image">
+                    <img class="w-100" src="{{$info->slider_1}}" alt="Image">
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-center">
@@ -63,7 +63,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100" src="/assets/img/carousel-1.jpg" alt="Image">
+                    <img class="w-100" src="{{$info->slider_2}}" alt="Image">
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-center">
@@ -102,9 +102,9 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="position-relative overflow-hidden h-100" style="min-height: 400px;">
-                        <img class="position-absolute w-100 h-100 pt-5 pe-5" src="/assets/img/2.jpg" alt=""
+                        <img class="position-absolute w-100 h-100 pt-5 pe-5" src="{{$homeinfo->home_about_img_1}}" alt=""
                             style="object-fit: cover;">
-                        <img class="position-absolute top-0 end-0 bg-white ps-2 pb-2" src="/assets/img/3.jpg" alt=""
+                        <img class="position-absolute top-0 end-0 bg-white ps-2 pb-2" src="{{$homeinfo->home_about_img_2}}" alt=""
                             style="width: 200px; height: 200px;">
                     </div>
                 </div>
@@ -113,11 +113,7 @@
                         <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">About Us</div>
                         <h1 class="display-6 mb-5">Who we are</h1>
                         <div class="bg-light border-bottom border-5 border-primary rounded p-4 mb-4">
-                            <p class="text-dark mb-2">At Hair and Love, we are on a mission to empower and uplift
-                                black-owned haircare businesses. With our biweekly service subscription, you have the
-                                opportunity to not only explore an incredible range of products but also actively support
-                                these entrepreneurs. Join us today and become a part of a community that celebrates
-                                diversity, beauty, and the power of black-owned haircare companies.</p>
+                            <p class="text-dark mb-2">{{$homeinfo->home_about}}</p>
                         </div>
                         <a href="/about" class="btn btn-primary py-2 px-3 me-3" href="">
                             Learn More

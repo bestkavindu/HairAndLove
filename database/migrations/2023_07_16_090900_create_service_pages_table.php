@@ -11,11 +11,12 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('homes', function (Blueprint $table) {
+        Schema::create('service_pages', function (Blueprint $table) {
             $table->id();
-            $table->text('home_about');
-            $table->text('home_about_img_1');
-            $table->text('home_about_img_2')->nullable();
+            $table->text('service_cover');
+            $table->text('service_main_img_1');
+            $table->text('service_main_img_2')->nullable();
+            $table->text('desc');
             $table->timestamps();
         });
     }
@@ -25,6 +26,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('homes');
+        Schema::dropIfExists('service_pages');
     }
 };

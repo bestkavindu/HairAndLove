@@ -9,15 +9,15 @@ use Laravel\Nova\Fields\Text;
 use Laravel\Nova\Fields\Markdown;
 use Laravel\Nova\Http\Requests\NovaRequest;
 
-class GenaralInfo extends Resource
+class AboutPage extends Resource
 {
-    public static $group = 'Settings';
+    public static $group = 'Pages';
     /**
      * The model the resource corresponds to.
      *
-     * @var class-string<\App\Models\GenaralInfo>
+     * @var class-string<\App\Models\AboutPage>
      */
-    public static $model = \App\Models\GenaralInfo::class;
+    public static $model = \App\Models\AboutPage::class;
 
     /**
      * The single value that should be used to represent the resource when being displayed.
@@ -45,24 +45,10 @@ class GenaralInfo extends Resource
     {
         return [
             ID::make()->sortable(),
-            Text::make('address'),
-            Text::make('phone'),
-            Text::make('email'),
-            Text::make('fb_link'),
-            Text::make('tw_link'),
-            Text::make('ig_link'),
-            Image::make('slider_1')->disk('public')->path('/images/slider')->help('Image Size : 1920 X 1080 '),
-            Image::make('slider_2')->disk('public')->path('/images/slider')->help('Image Size : 1920 X 1080 '),
-            Markdown::make('slider_main_content'),
-            Markdown::make('slider_sub_content'),
-
-
-            // about
-
-            // service
-
-
-
+            Image::make('about_cover')->disk('public')->path('/images/about') ->help('Image Size : 1920 X 1080'),
+            Image::make('about_main_img_1')->disk('public')->path('/images/about') ->help('Image Size : 1 : 1 '),
+            Image::make('about_main_img_2')->disk('public')->path('/images/about') ->help('Image Size : 1 : 1 '),
+            Markdown::make('main_about'),
         ];
     }
 

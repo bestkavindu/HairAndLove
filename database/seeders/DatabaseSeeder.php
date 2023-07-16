@@ -21,6 +21,12 @@ class DatabaseSeeder extends Seeder
             ProductSeeder::class,
             ServiceSeeder::class,
             GenaralInfoSeeder::class,
+            HomeSeeder::class,
+           AboutPageSeeder::class,
+           BlogNewsPageSeeder::class,
+           ServicePageSeeder::class,
+           ContactPageSeeder::class,
+           ProductPageSeeder::class,
         ]);
     }
 }
