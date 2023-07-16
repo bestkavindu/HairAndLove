@@ -15,7 +15,12 @@ class ProductSeeder extends Seeder
     {
         Product::create([
             'title'=>'Education For African Children',
-            'image'=>'Education For African Children',
+            'image'=>'images/product/1.jpg',
+            'desc' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos odit eveniet et adipisci recusandae temporibus rerum distinctio sequi eum, provident, omnis nemo dolore doloremque nisi quidem? Saepe modi quidem rem?'
+        ]);
+        Product::create([
+            'title'=>'Education For African Children',
+            'image'=>'images/product/2.jpg',
             'desc' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos odit eveniet et adipisci recusandae temporibus rerum distinctio sequi eum, provident, omnis nemo dolore doloremque nisi quidem? Saepe modi quidem rem?'
         ]);
     }

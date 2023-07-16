@@ -24,4 +24,5 @@ Route::get('/services',[ServicesController::class, 'index']);
 Route::get('/about',[AboutController::class, 'index']);
 Route::get('/contact',[ContactController::class, 'index']);
 Route::get('/blog',[BlogNewsController::class, 'index']);
+Route::get('/blog/{id}',[BlogNewsController::class, 'single'])->where('slug', '(.*)')->name('blog.single');
 Route::get('/products',[ProductController::class, 'index']);

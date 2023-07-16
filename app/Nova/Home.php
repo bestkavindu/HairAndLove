@@ -4,19 +4,16 @@ namespace App\Nova;
 
 use Illuminate\Http\Request;
 use Laravel\Nova\Fields\ID;
-use Laravel\Nova\Fields\Image;
-use Laravel\Nova\Fields\Text;
-use Laravel\Nova\Fields\Markdown;
 use Laravel\Nova\Http\Requests\NovaRequest;
 
-class Product extends Resource
+class Home extends Resource
 {
     /**
      * The model the resource corresponds to.
      *
-     * @var class-string<\App\Models\Product>
+     * @var class-string<\App\Models\Home>
      */
-    public static $model = \App\Models\Product::class;
+    public static $model = \App\Models\Home::class;
 
     /**
      * The single value that should be used to represent the resource when being displayed.
@@ -44,11 +41,6 @@ class Product extends Resource
     {
         return [
             ID::make()->sortable(),
-
-            Text::make('title'),
-            Image::make('Image')->disk('public')->path('/images/product') ->help('Image Size : 550 X 400 '),
-            Markdown::make('desc'),
-
         ];
     }
 

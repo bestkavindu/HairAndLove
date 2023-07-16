@@ -40,7 +40,7 @@ return [
         'role_permission' => 'role_permission',
 
         'role_user' => 'role_user',
-        
+
         'users' => 'users',
     ],
 
@@ -97,6 +97,30 @@ return [
             'display_name' => 'Delete roles',
             'description'  => 'Can delete roles',
             'group'        => 'Role',
+        ],
+        // products
+        'view products' => [
+            'display_name' => 'View products',
+            'description'  => 'Can view products',
+            'group'        => 'Product',
+        ],
+
+        'create products' => [
+            'display_name' => 'Create products',
+            'description'  => 'Can create products',
+            'group'        => 'Product',
+        ],
+
+        'edit products' => [
+            'display_name' => 'Edit products',
+            'description'  => 'Can edit products',
+            'group'        => 'Product',
+        ],
+
+        'delete products' => [
+            'display_name' => 'Delete products',
+            'description'  => 'Can delete products',
+            'group'        => 'Product',
         ],
     ],
 ];

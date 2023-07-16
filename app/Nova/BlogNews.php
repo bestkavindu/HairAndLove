@@ -45,8 +45,8 @@ class BlogNews extends Resource
         return [
             ID::make()->sortable(),
             Text::make('title'),
-            Image::make('main_img')->disk('public'),
-            Image::make('cover_img')->disk('public'),
+            Image::make('main_img')->disk('public')->path('/images/blogandnews') ->help('Image Size : 550 X 400 '),
+            Image::make('cover_img')->disk('public')->path('/images/blogandnews') ->help('Image Size : 550 X 400 '),
             Markdown::make('desc'),
         ];
     }
