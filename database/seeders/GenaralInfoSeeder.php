@@ -16,7 +16,7 @@ class GenaralInfoSeeder extends Seeder
         GenaralInfo::create([
             'address'=>'Houston, Tx 77099',
             'phone'=>'713-280-6838 ',
-            'email'=>'info@example.com',
+            'email'=>'Loveandhaircompany@gmail.com',
             'tw_link' => '',
             'tw_link' => '',
             'ig_link' => '',
