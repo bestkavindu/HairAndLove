@@ -17,7 +17,7 @@
         .principal-icon {
             font-size: 70px;
             padding: 20px 0;
-            color: #ff6f0f;
+            color: #d99976;
         }
 
         .service-img img {
@@ -67,12 +67,12 @@
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-center">
-                                <div class="col-lg-7 pt-5">
-                                    <h1 class="display-4 text-white mb-3 animated slideInDown">Let's Save More Lifes
-                                        With Our Helping Hand</h1>
-                                    <p class="fs-5 text-white-50 mb-5 animated slideInDown">Aliqu diam amet diam et
-                                        eos.
-                                        Clita erat ipsum et lorem sed stet lorem sit clita duo justo erat amet</p>
+                                <div class="col-lg-8 pt-5">
+                                    <h1 class="display-4 text-white mb-3 animated slideInDown">Discover
+                                        Black-Owned Haircare Companies</h1>
+                                    <p class="fs-5 text-white-50 mb-5 animated slideInDown">Discover and Support Black-Owned
+                                        Haircare Companies. Join Our Biweekly Service Subscription and Make a Difference!
+                                    </p>
                                     <a class="btn btn-primary py-2 px-3 animated slideInDown" href="">
                                         Learn More
                                         <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">

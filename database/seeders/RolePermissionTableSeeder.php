@@ -137,32 +137,206 @@ class RolePermissionTableSeeder extends Seeder
                 'created_at' => '2023-01-29 05:10:04',
                 'updated_at' => '2023-01-29 05:10:04',
             ),
-            //team
+            //homepage
             16 =>
             array (
                 'role_id' => 1,
-                'permission_slug' => 'view team',
+                'permission_slug' => 'view homepage',
                 'created_at' => '2023-01-29 05:10:04',
                 'updated_at' => '2023-01-29 05:10:04',
             ),
             17 =>
             array (
                 'role_id' => 1,
-                'permission_slug' => 'create team',
+                'permission_slug' => 'create homepage',
                 'created_at' => '2023-01-29 05:10:04',
                 'updated_at' => '2023-01-29 05:10:04',
             ),
             18 =>
             array (
                 'role_id' => 1,
-                'permission_slug' => 'edit team',
+                'permission_slug' => 'edit homepage',
                 'created_at' => '2023-01-29 05:10:04',
                 'updated_at' => '2023-01-29 05:10:04',
             ),
             19 =>
             array (
                 'role_id' => 1,
-                'permission_slug' => 'delete team',
+                'permission_slug' => 'delete homepage',
+                'created_at' => '2023-01-29 05:10:04',
+                'updated_at' => '2023-01-29 05:10:04',
+            ),
+            //blognewspage
+            20 =>
+            array (
+                'role_id' => 1,
+                'permission_slug' => 'view blognewspage',
+                'created_at' => '2023-01-29 05:10:04',
+                'updated_at' => '2023-01-29 05:10:04',
+            ),
+            21 =>
+            array (
+                'role_id' => 1,
+                'permission_slug' => 'create blognewspage',
+                'created_at' => '2023-01-29 05:10:04',
+                'updated_at' => '2023-01-29 05:10:04',
+            ),
+            22 =>
+            array (
+                'role_id' => 1,
+                'permission_slug' => 'edit blognewspage',
+                'created_at' => '2023-01-29 05:10:04',
+                'updated_at' => '2023-01-29 05:10:04',
+            ),
+            23 =>
+            array (
+                'role_id' => 1,
+                'permission_slug' => 'delete blognewspage',
+                'created_at' => '2023-01-29 05:10:04',
+                'updated_at' => '2023-01-29 05:10:04',
+            ),
+             //aboutpage
+             24 =>
+             array (
+                 'role_id' => 1,
+                 'permission_slug' => 'view aboutpage',
+                 'created_at' => '2023-01-29 05:10:04',
+                 'updated_at' => '2023-01-29 05:10:04',
+             ),
+             25 =>
+             array (
+                 'role_id' => 1,
+                 'permission_slug' => 'create aboutpage',
+                 'created_at' => '2023-01-29 05:10:04',
+                 'updated_at' => '2023-01-29 05:10:04',
+             ),
+             26 =>
+             array (
+                 'role_id' => 1,
+                 'permission_slug' => 'edit aboutpage',
+                 'created_at' => '2023-01-29 05:10:04',
+                 'updated_at' => '2023-01-29 05:10:04',
+             ),
+             27 =>
+             array (
+                 'role_id' => 1,
+                 'permission_slug' => 'delete aboutpage',
+                 'created_at' => '2023-01-29 05:10:04',
+                 'updated_at' => '2023-01-29 05:10:04',
+             ),
+              //servicepage
+              28 =>
+              array (
+                  'role_id' => 1,
+                  'permission_slug' => 'view servicepage',
+                  'created_at' => '2023-01-29 05:10:04',
+                  'updated_at' => '2023-01-29 05:10:04',
+              ),
+              29 =>
+              array (
+                  'role_id' => 1,
+                  'permission_slug' => 'create servicepage',
+                  'created_at' => '2023-01-29 05:10:04',
+                  'updated_at' => '2023-01-29 05:10:04',
+              ),
+              30 =>
+              array (
+                  'role_id' => 1,
+                  'permission_slug' => 'edit servicepage',
+                  'created_at' => '2023-01-29 05:10:04',
+                  'updated_at' => '2023-01-29 05:10:04',
+              ),
+              31 =>
+              array (
+                  'role_id' => 1,
+                  'permission_slug' => 'delete servicepage',
+                  'created_at' => '2023-01-29 05:10:04',
+                  'updated_at' => '2023-01-29 05:10:04',
+              ),
+              //contactpage
+              32 =>
+              array (
+                  'role_id' => 1,
+                  'permission_slug' => 'view contactpage',
+                  'created_at' => '2023-01-29 05:10:04',
+                  'updated_at' => '2023-01-29 05:10:04',
+              ),
+              33 =>
+              array (
+                  'role_id' => 1,
+                  'permission_slug' => 'create contactpage',
+                  'created_at' => '2023-01-29 05:10:04',
+                  'updated_at' => '2023-01-29 05:10:04',
+              ),
+              34 =>
+              array (
+                  'role_id' => 1,
+                  'permission_slug' => 'edit contactpage',
+                  'created_at' => '2023-01-29 05:10:04',
+                  'updated_at' => '2023-01-29 05:10:04',
+              ),
+              35 =>
+              array (
+                  'role_id' => 1,
+                  'permission_slug' => 'delete contactpage',
+                  'created_at' => '2023-01-29 05:10:04',
+                  'updated_at' => '2023-01-29 05:10:04',
+              ),
+            //blognews
+            36 =>
+            array (
+                'role_id' => 1,
+                'permission_slug' => 'view blognews',
+                'created_at' => '2023-01-29 05:10:04',
+                'updated_at' => '2023-01-29 05:10:04',
+            ),
+            37 =>
+            array (
+                'role_id' => 1,
+                'permission_slug' => 'create blognews',
+                'created_at' => '2023-01-29 05:10:04',
+                'updated_at' => '2023-01-29 05:10:04',
+            ),
+            38 =>
+            array (
+                'role_id' => 1,
+                'permission_slug' => 'edit blognews',
+                'created_at' => '2023-01-29 05:10:04',
+                'updated_at' => '2023-01-29 05:10:04',
+            ),
+            39 =>
+            array (
+                'role_id' => 1,
+                'permission_slug' => 'delete blognews',
+                'created_at' => '2023-01-29 05:10:04',
+                'updated_at' => '2023-01-29 05:10:04',
+            ),
+            //genaralinfo
+            40 =>
+            array (
+                'role_id' => 1,
+                'permission_slug' => 'view genaralinfo',
+                'created_at' => '2023-01-29 05:10:04',
+                'updated_at' => '2023-01-29 05:10:04',
+            ),
+            41 =>
+            array (
+                'role_id' => 1,
+                'permission_slug' => 'create genaralinfo',
+                'created_at' => '2023-01-29 05:10:04',
+                'updated_at' => '2023-01-29 05:10:04',
+            ),
+            42 =>
+            array (
+                'role_id' => 1,
+                'permission_slug' => 'edit genaralinfo',
+                'created_at' => '2023-01-29 05:10:04',
+                'updated_at' => '2023-01-29 05:10:04',
+            ),
+            43 =>
+            array (
+                'role_id' => 1,
+                'permission_slug' => 'delete genaralinfo',
                 'created_at' => '2023-01-29 05:10:04',
                 'updated_at' => '2023-01-29 05:10:04',
             ),

@@ -33,7 +33,7 @@
 
 /********** Template CSS **********/
 :root {
-    --primary: #ff6f0f;
+    --primary: #d99976;
     --secondary: #fff0e6;
     --light: #f8f8f9;
     --dark: #001d23;
@@ -477,4 +477,10 @@
 
 .footer .copyright a:hover {
     color: var(--primary);
+}
+body {
+
+    color: #787878;
+    background-color: #e5d3b3;
+
 }

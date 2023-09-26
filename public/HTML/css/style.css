@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #FF6F0F;
+    --primary: #d99976;
     --secondary: #FFF0E6;
     --light: #F8F8F9;
     --dark: #001D23;
@@ -169,7 +169,7 @@
         position: relative;
         min-height: 450px;
     }
-    
+
     #header-carousel .carousel-item img {
         position: absolute;
         width: 100%;
@@ -361,7 +361,7 @@
 
 .testimonial-carousel .owl-item.center .testimonial-item img {
     background: var(--primary) !important;
-} 
+}
 
 .testimonial-carousel .owl-nav {
     position: absolute;
