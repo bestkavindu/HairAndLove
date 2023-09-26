@@ -1,5 +1,11 @@
 /* COMMON */
 
+.btn-primary {
+    color: #000;
+    background-color: #a37447;
+    border-color: #a37447;
+}
+
 .text-truncate-1 {
     display: -webkit-box;
     -webkit-line-clamp: 1;
@@ -34,7 +40,7 @@
 .principal-icon {
     font-size: 70px;
     padding: 20px 0;
-    color: #d99976;
+    color: #a37447;
 }
 .supply-chain-image {
     border-radius: 20px;

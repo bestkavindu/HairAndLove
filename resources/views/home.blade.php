@@ -17,7 +17,7 @@
         .principal-icon {
             font-size: 70px;
             padding: 20px 0;
-            color: #d99976;
+            color: #a37447;
         }
 
         .service-img img {
@@ -52,7 +52,7 @@
                                         Haircare Companies. Join Our Biweekly Service Subscription and Make a Difference!
                                     </p>
                                     <a class="btn btn-primary py-2 px-3 animated slideInDown" href="">
-                                        Learn More
+                                        Sign Up Today
                                         <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
                                             <i class="fa fa-arrow-right"></i>
                                         </div>
@@ -74,7 +74,7 @@
                                         Haircare Companies. Join Our Biweekly Service Subscription and Make a Difference!
                                     </p>
                                     <a class="btn btn-primary py-2 px-3 animated slideInDown" href="">
-                                        Learn More
+                                        Sign Up Today
                                         <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
                                             <i class="fa fa-arrow-right"></i>
                                         </div>

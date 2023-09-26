@@ -3,9 +3,8 @@
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
-                    <h2 class="fw-bold text-primary mb-4">NCG<span class="text-white">WAREHOUSE</span></h2>
-                    <p>Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed
-                        stet lorem sit clita</p>
+                    <h5 class="fw-bold text-primary mb-4">LOVE<span class="text-white">ANDHAIRCOMPANY</span></h5>
+                    <p>Discover and Support Black-Owned Haircare Companies. Join Our Biweekly Service Subscription and Make a Difference!</p>
                     <div class="d-flex pt-2">
                         <a class="btn btn-square me-1" href=""><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-square me-1" href=""><i class="fab fa-facebook-f"></i></a>
@@ -15,9 +14,9 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-light mb-4">Address</h5>
-                    <p><i class="fa fa-map-marker-alt me-3"></i>9th Floor, 10 Raymond Rd, Nugegoda 10250</p>
-                    <p><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                    <p><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                    <p><i class="fa fa-map-marker-alt me-3"></i>Houston, Tx 77099 </p>
+                    <p><i class="fa fa-phone-alt me-3"></i>713-280-6838 </p>
+                    <p><i class="fa fa-envelope me-3"></i>Loveandhaircompany@gmail.com</p>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-light mb-4">Quick Links</h5>
@@ -41,11 +40,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a href="/">NCG Warehouse</a>, All Right Reserved.
+                        &copy; <a href="/">Loveandhaircompany</a>, All Right Reserved.
                     </div>
                     <div class="col-md-6 text-center text-md-end">
                         <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                        Powered By <a href="https://zuse.lk/">Zuse Technologies</a>
+                        Powered By <a href="https://loveandhaircompany.com/">Loveandhaircompany</a>
                     </div>
                 </div>
             </div>

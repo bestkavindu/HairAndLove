@@ -17,7 +17,7 @@ class AboutPageSeeder extends Seeder
             'about_cover' => 'images/about/cover.jpg',
             'about_main_img_1' => 'images/about/1.jpg',
             'about_main_img_2' => 'images/about/2.jpg',
-            'main_about' => 'At Hair and Love, we are committed to supporting black-owned businesses in the haircare industry. Our biweekly subscription service allows our members to experience a wide range of sample-sized products from these businesses. By collaborating with black-owned brands, we aim to foster their growth and provide our customers with exceptional haircare options. Join us on this empowering journey and discover the power of black-owned haircare.',
+            'main_about' => '“"At Love and Hair Company, we are on a mission to deliver quality products that help you discover your perfect haircare routine at an affordable price.” ',
         ]);
 
     }
