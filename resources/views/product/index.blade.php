@@ -37,7 +37,7 @@
 @section('content')
     <!-- Page Header Start -->
     <div class="container-fluid page-header mb-5 wow fadeIn" data-wow-delay="0.1s"
-        style="background-image: linear-gradient(rgba(0, 29, 35, .8), rgba(0, 29, 35, .8)),url('{{$info->products_cover}}')">
+        style="background-image: linear-gradient(rgba(0, 29, 35, .8), rgba(0, 29, 35, .8)),url('{{asset($info->products_cover)}}')">
         <div class="container text-center">
             <h1 class="display-4 text-white animated slideInDown mb-4">Products</h1>
             <nav aria-label="breadcrumb animated slideInDown">
@@ -66,7 +66,7 @@
 
                             <div class="service-img">
 
-                                <img class="img-fluid" src="{{$product->image}}" alt="">
+                                <img class="img-fluid" src="{{asset($product->image)}}" alt="">
                             </div>
                             <h5 class="mb-3">{{$product->title}}</h5>
                             <p>{!!$product->desc!!}</p>

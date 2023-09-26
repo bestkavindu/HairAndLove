@@ -40,8 +40,8 @@
     <div class="container-fluid p-0 mb-5">
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="w-100" src="{{$info->slider_1}}" alt="Image">
+                <div class="carousel-item active">'
+                    <img class="w-100" src="{{asset($info->slider_1)}}" alt="Image">
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-center">
@@ -63,7 +63,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100" src="{{$info->slider_2}}" alt="Image">
+                    <img class="w-100" src="{{asset($info->slider_2)}}" alt="Image">
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-center">
@@ -149,7 +149,7 @@
 
                                 <div class="service-img">
 
-                                    <img class="img-fluid" src="{{ $product->image }}" alt="">
+                                    <img class="img-fluid" src="{{ asset($product->image) }}" alt="">
                                 </div>
                                 <h5 class="mb-3 mt-3">{{ $product->title }}</h5>
                                 <p class="text-truncate-3">{!! $product->desc !!}</p>
@@ -168,7 +168,7 @@
     </div>
 
     <!-- Testimonial Start -->
-    <div class="container-xxl py-5">
+    {{-- <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
                 <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Testimonial</div>
@@ -210,7 +210,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- Testimonial End -->
 @endsection
 

@@ -25,7 +25,7 @@
 
     <!-- Page Header Start -->
     <div class="container-fluid page-header mb-5 wow fadeIn" data-wow-delay="0.1s"
-        style="background-image: linear-gradient(rgba(0, 29, 35, .8), rgba(0, 29, 35, .8)),url('{{$info->about_cover}}')">
+        style="background-image: linear-gradient(rgba(0, 29, 35, .8), rgba(0, 29, 35, .8)),url('{{asset($info->about_cover)}}')">
         <div class="container text-center">
             <h1 class="display-4 text-white animated slideInDown mb-4">About Us</h1>
             <nav aria-label="breadcrumb animated slideInDown">
@@ -43,8 +43,8 @@
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="position-relative overflow-hidden h-100" style="min-height: 400px;">
-                            <img class="position-absolute w-100 h-100 pt-5 pe-5" src="{{$info->about_main_img_1}}" alt="" style="object-fit: cover;">
-                            <img class="position-absolute top-0 end-0 bg-white ps-2 pb-2" src="{{$info->about_main_img_2}}" alt="" style="width: 200px; height: 200px;">
+                            <img class="position-absolute w-100 h-100 pt-5 pe-5" src="{{asset($info->about_main_img_1)}}" alt="" style="object-fit: cover;">
+                            <img class="position-absolute top-0 end-0 bg-white ps-2 pb-2" src="{{asset($info->about_main_img_2)}}" alt="" style="width: 200px; height: 200px;">
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
