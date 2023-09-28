@@ -19,7 +19,7 @@
     <!-- /.head -->
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="/assets/images/favicon.ico">
+    <link rel="icon" type="image/png" href="/images/favicon.png">
 
     <!-- css  -->
     @include('layouts.css')

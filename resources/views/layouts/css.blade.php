@@ -26,5 +26,7 @@
     <link href="{{ asset('/assets/css/style.css') }}" rel="stylesheet">
     <link href="{{ asset('/assets/css/custom.css') }}" rel="stylesheet">
 
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+
 
     @yield('custom-css')

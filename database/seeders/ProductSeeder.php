@@ -14,14 +14,15 @@ class ProductSeeder extends Seeder
     public function run()
     {
         Product::create([
-            'title'=>'Education For African Children',
+            'title'=>'Review Example',
             'image'=>'images/product/1.jpg',
-            'desc' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos odit eveniet et adipisci recusandae temporibus rerum distinctio sequi eum, provident, omnis nemo dolore doloremque nisi quidem? Saepe modi quidem rem?'
+            'desc' => 'OMG thank you guys so much, I found the product of my dreamsss. I love the service and my results. I love my hair! I love my hair! I love my hair!!!'
         ]);
         Product::create([
-            'title'=>'Education For African Children',
+            'title'=>'Review Example',
             'image'=>'images/product/2.jpg',
-            'desc' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos odit eveniet et adipisci recusandae temporibus rerum distinctio sequi eum, provident, omnis nemo dolore doloremque nisi quidem? Saepe modi quidem rem?'
+            'desc' => "Exciting News: Our New #1 Bestseller! We're thrilled to announce that [Product Name] has taken the crown as our new #1 bestseller!
+             Thank you for making [Product Name] your top choice in haircare. We're committed to keeping your hair healthy and beautiful."
         ]);
     }
 }

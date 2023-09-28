@@ -21,13 +21,15 @@
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-light mb-4">Quick Links</h5>
                     <a class="btn btn-link" href="/about">About Us</a>
-                    <a class="btn btn-link" href="/contact">Contact Us</a>
-                    <a class="btn btn-link" href="/procedure">Procedure</a>
+                    <a class="btn btn-link" href="/services">Services</a>
+                    <a class="btn btn-link" href="/products">Products</a>
+                    <a class="btn btn-link" href="/blog">Blog and News</a>
+
 
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-light mb-4">Contact</h5>
-                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <p>If You Have Any Query, Please Contact Us</p>
                     <div class="position-relative mx-auto" style="max-width: 400px;">
                         <a href="/contact"> <button type="button"
                                 class="btn btn-primary py-2 position-absolute top-0  mt-2 me-2">Contact

@@ -14,10 +14,10 @@ class BlogNewsSeeder extends Seeder
     public function run(): void
     {
         BlogNews::create([
-            'title'=>'Education For African Children',
+            'title'=>'Update Example',
             'main_img'=>'images/blogandnews/1.jpg',
             'cover_img'=>'images/blogandnews/2.jpg',
-            'desc' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos odit eveniet et adipisci recusandae temporibus rerum distinctio sequi eum, provident, omnis nemo dolore doloremque nisi quidem? Saepe modi quidem rem?'
+            'desc' => 'OMG thank you guys so much, I found the product of my dreamsss. I love the service and my results. I love my hair! I love my hair! I love my hair!!!'
         ]);
     }
 }
