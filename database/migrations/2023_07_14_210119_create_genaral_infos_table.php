@@ -21,6 +21,7 @@ return new class extends Migration
             $table->text('ig_link')->nullable();
             $table->text('slider_1');
             $table->text('slider_2');
+            $table->text('slider_3');
             $table->text('slider_main_content');
             $table->text('slider_sub_content');
 

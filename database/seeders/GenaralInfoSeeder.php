@@ -22,6 +22,7 @@ class GenaralInfoSeeder extends Seeder
             'ig_link' => '',
             'slider_1' => 'images/slider/1.jpg',
             'slider_2' => 'images/slider/2.jpg',
+            'slider_3' => 'images/slider/3.jpg',
             'slider_main_content' => 'discover your perfect haircare routine',
             'slider_sub_content' => 'Support, Nourish and Love your hair affordably with our biweekly subscription service. Sign up now to stay informed about our first rollout of quality products from our partnered businesses.',
             // about

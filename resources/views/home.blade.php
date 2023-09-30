@@ -41,15 +41,16 @@
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">'
-                    <img class="w-100" src="{{asset($info->slider_1)}}" alt="Image">
+                    <img class="w-100" src="{{ asset($info->slider_1) }}" alt="Image">
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-8 pt-5">
-                                    <h1 class="display-4 text-white mb-3 animated slideInDown">Discover
-                                        Black-Owned Haircare Companies</h1>
-                                    <p class="fs-5 text-white-50 mb-5 animated slideInDown">Discover and Support Black-Owned
-                                        Haircare Companies. Join Our Biweekly Service Subscription and Make a Difference!
+                                    <h1 class="display-4 text-white mb-3 animated slideInDown">Tired of wasting money on
+                                        hair products?</h1>
+                                    <p class="fs-5 text-white-50 mb-5 animated slideInDown">Subscribe today and try a
+                                        variety of hair products for a $25 biweekly payment. Once you find the products you
+                                        love, feel free to cancel anytime.
                                     </p>
                                     <a class="btn btn-primary py-2 px-3 animated slideInDown" href="">
                                         Sign Up Today
@@ -63,15 +64,39 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100" src="{{asset($info->slider_2)}}" alt="Image">
+                    <img class="w-100" src="{{ asset($info->slider_2) }}" alt="Image">
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-8 pt-5">
-                                    <h1 class="display-4 text-white mb-3 animated slideInDown">Discover
-                                        Black-Owned Haircare Companies</h1>
-                                    <p class="fs-5 text-white-50 mb-5 animated slideInDown">Discover and Support Black-Owned
-                                        Haircare Companies. Join Our Biweekly Service Subscription and Make a Difference!
+                                    <h1 class="display-4 text-white mb-3 animated slideInDown">Difficulty finding products
+                                        new products to try? </h1>
+                                    <p class="fs-5 text-white-50 mb-5 animated slideInDown">Our subscription services offers
+                                        convenient doorsteps delivery with an extensive line of quality products. Once you
+                                        are completely satisfied with your result, feel free to cancel anytime.
+                                    </p>
+                                    <a class="btn btn-primary py-2 px-3 animated slideInDown" href="">
+                                        Sign Up Today
+                                        <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
+                                            <i class="fa fa-arrow-right"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="{{ asset($info->slider_3) }}" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8 pt-5">
+                                    <h1 class="display-4 text-white mb-3 animated slideInDown">Too busy to pick up your
+                                        subscription package at the store?</h1>
+                                    <p class="fs-5 text-white-50 mb-5 animated slideInDown">We deliver our shipments right
+                                        to your doorstep, saving you the time and hassle of pickups. Additionally, you can
+                                        easily cancel your subscription at any time.
                                     </p>
                                     <a class="btn btn-primary py-2 px-3 animated slideInDown" href="">
                                         Sign Up Today
@@ -102,10 +127,10 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="position-relative overflow-hidden h-100" style="min-height: 400px;">
-                        <img class="position-absolute w-100 h-100 pt-5 pe-5" src="{{$homeinfo->home_about_img_1}}" alt=""
-                            style="object-fit: cover;">
-                        <img class="position-absolute top-0 end-0 bg-white ps-2 pb-2" src="{{$homeinfo->home_about_img_2}}" alt=""
-                            style="width: 200px; height: 200px;">
+                        <img class="position-absolute w-100 h-100 pt-5 pe-5" src="{{ $homeinfo->home_about_img_1 }}"
+                            alt="" style="object-fit: cover;">
+                        <img class="position-absolute top-0 end-0 bg-white ps-2 pb-2"
+                            src="{{ $homeinfo->home_about_img_2 }}" alt="" style="width: 200px; height: 200px;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -113,7 +138,7 @@
                         <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">About Us</div>
                         <h1 class="display-6 mb-5">Who we are</h1>
                         <div class="bg-light border-bottom border-5 border-primary rounded p-4 mb-4">
-                            <p class="text-dark mb-2">{{$homeinfo->home_about}}</p>
+                            <p class="text-dark mb-2">{{ $homeinfo->home_about }}</p>
                         </div>
                         <a href="/about" class="btn btn-primary py-2 px-3 me-3" href="">
                             Learn More

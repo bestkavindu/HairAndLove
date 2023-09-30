@@ -3,8 +3,9 @@
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
-                    <h5 class="fw-bold text-primary mb-4">LOVE<span class="text-white">ANDHAIRCOMPANY</span></h5>
-                    <p>Discover and Support Black-Owned Haircare Companies. Join Our Biweekly Service Subscription and Make a Difference!</p>
+                    <h5 class="text-white mb-4"><span class="fw-bold text-primary">LOVE</span>AND<span class="fw-bold text-primary">HAIR</span>COMPANY</h5>
+                    <p>Join our revolutionary haircare service that includes convenient, high-quality, and affordable
+                        biweekly doorstep shipments. Don't miss out, subscribe today to start your journey.</p>
                     <div class="d-flex pt-2">
                         <a class="btn btn-square me-1" href=""><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-square me-1" href=""><i class="fab fa-facebook-f"></i></a>

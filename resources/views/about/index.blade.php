@@ -53,6 +53,7 @@
                     <div class="h-100">
                         <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">About Us</div>
                         <div class="bg-light border-bottom border-5 border-primary rounded p-4 mb-4">
+                            <h1 class="display-6 mb-5">Who/How/Why</h1>
                             <h4 class="display-7 text-primary mb-3">Who we are</h4>
                             <p class="text-dark mb-2">“"At Love and Hair Company, we are on a mission to deliver quality
                                 products that help you discover your perfect haircare routine at an affordable price.”</p>
